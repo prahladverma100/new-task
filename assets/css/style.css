@@ -9,6 +9,51 @@
     box-sizing: border-box;
 }
 
+.navline::after {
+    height: 2px;
+    width: 0;
+    background-color: #ffffff;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 200ms ease-in-out;
+}
+
+.blockchain {
+    right: -5%;
+    bottom: 0;
+
+}
+
+.right0 {
+    right: 0 !important;
+}
+
+.Whitelist {
+    top: 30%;
+}
+
+.navline:hover::after {
+    width: 100%;
+}
+
+.footer_line::after {
+    height: 2px;
+    width: 0;
+    background-color: #B3B3B3 !important;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 200ms ease-in-out;
+}
+
+.footer_line:hover::after {
+    width: 100%;
+}
+
+
 .ff_poppins {
     font-family: "Poppins",
         sans-serif;
@@ -81,7 +126,7 @@
 }
 
 .pt60 {
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
 .bg_color1 {
@@ -94,7 +139,7 @@
 
 .learn_btn {
     border-radius: 12px;
-    padding: 18px 32px 18px 32px !important;
+    padding: 11px 22px 11px 22px !important;
     border: none;
     background-color: #0066FF;
     color: white !important;
@@ -336,14 +381,14 @@
     backdrop-filter: blur(20px);
     width: 280px;
     border: 1px solid white;
-    height: 180px;
-    padding: 53px 43px;
+    height: 140px;
+    padding: 50px 20px;
     justify-content: center;
     align-items: center;
 }
 
 .pt40 {
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .pt149 {
@@ -445,7 +490,7 @@
 }
 
 .footer_btn {
-    padding: 18px 32px 18px 32px;
+    padding: 11px 22px 11px 22px;
     background-color: #0066FF;
     border-radius: 12px;
     border: none;
@@ -466,10 +511,6 @@ svg {
 
 svg:hover {
     transform: translatey(-5px);
-}
-
-svg path:hover {
-    stroke: #02CDCF !important;
 }
 
 .footer_btn:hover {
@@ -778,5 +819,25 @@ svg path:hover {
 
     .pl28 {
         padding-left: 28px !important;
+    }
+
+    .boxes {
+        height: 180px;
+    }
+
+    .learn_btn {
+        padding: 18px 32px 18px 32px !important;
+    }
+
+    .footer_btn {
+        padding: 18px 32px 18px 32px !important;
+    }
+
+    .pt40 {
+        padding-top: 40px;
+    }
+
+    .pt60 {
+        padding-top: 60px;
     }
 }
