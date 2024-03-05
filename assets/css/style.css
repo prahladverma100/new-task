@@ -482,7 +482,7 @@
 }
 
 .pb10 {
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 .gap12 {
@@ -523,7 +523,7 @@ svg:hover {
 }
 
 .pt20 {
-    padding-top: 20px;
+    padding-top: 8px;
 }
 
 .foter_line {
@@ -796,6 +796,9 @@ svg:hover {
     .Nexai_products {
         min-height: 740px;
     }
+    .pt20 {
+        padding-top: 20px;
+    }
 
     .pt {
         padding: 75px 0px 103px 0px;
@@ -811,6 +814,10 @@ svg:hover {
 
     .max-w {
         max-width: 823px;
+    }
+
+    .pb10 {
+        padding-bottom: 10px;
     }
 
     .padding_top_bottom {
